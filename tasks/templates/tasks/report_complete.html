@@ -1,0 +1,60 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+<title>Home</title>
+{% endblock title %}
+
+{% block content %}
+<div >
+<table class="table align-middle mb-0 bg-white table-dark table-striped table-hover "  >
+    <thead class="bg-light">
+      <tr>
+        <th>S.N.</th>
+        <th>Title</th>
+        <th>Priority</th>
+        <th>Description </th>
+        <th>Status</th>
+        <th>CreatedBy</th>
+        <th>AssignedTo</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      {% for task in complete %}
+      <tr>
+        <th scope="row">{{forloop.counter}}</th>
+        <td>{{task.title}}</td>
+        <td>{{task.priority}}</td>
+        <td>{{task.description}}</td>
+        <td>{{task.status}}</td>
+        <td>{{task.createdBy}}</td>
+        <td>{{task.assignedTo}}</td>
+        <td>{{task.startdate}}</td>
+        <td>{{task.enddate}}</td>
+
+        <!-- <td><a  href="{% url 'task-update' task.id%}" class="btn btn-sm btn-info" >Update</a>
+        <form action="{% url 'task-delete' task.id%} " method="post">
+          {% csrf_token %}
+          <button type="submit "class="btn btn-sm btn-danger">Delete</button>
+        
+        </form>  
+         -->
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+</table>
+</div>
+
+{% endblock content %}
+
+<!-- {% block js %}
+<script>
+  // A $( document ).ready() block.
+$( document ).ready(function() {
+  let table = new DataTable('#taskList');   
+});
+</script>
+{% endblock js %}     -->

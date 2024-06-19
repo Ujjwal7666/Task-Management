@@ -1,0 +1,45 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+<title>Report</title>
+{% endblock title %}
+
+{% block content %}
+<h1>Summary Report</h1>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header text-center" style="background-color: #04b413;">
+                    <h2>Task Summary</h2>
+                </div>
+                <div class="card-body" style="border: #e90950;">
+                    <table class="table table-bordered" style="margin: 20px auto; max-width: 600px; border: 2px solid #e90950;">
+                        <tr>
+                            <th style="padding: 15px; text-align: left; background-color: #16f9a6; font-weight: bold;">Total Tasks</th>
+                            <td style="padding: 15px; text-align: left; background-color: #ffffff;">{{ summary.total_tasks }}</td>
+                        </tr>
+                        <tr>
+                            <th style="padding: 15px; text-align: left; background-color: #16f9a6; font-weight: bold;">Completed Tasks</th>
+                            <td style="padding: 15px; text-align: left; background-color: #ffffff;">{{ summary.completed_tasks }}</td>
+                        </tr>
+                        <tr>
+                            <th style="padding: 15px; text-align: left; background-color: #16f9a6; font-weight: bold;">In Progress Tasks</th>
+                            <td style="padding: 15px; text-align: left; background-color: #ffffff;">{{ summary.in_progress_tasks }}</td>
+                        </tr>
+                        <tr>
+                            <th style="padding: 15px; text-align: left; background-color: #16f9a6; font-weight: bold;">Open Task</th>
+                            <td style="padding: 15px; text-align: left; background-color: #ffffff;">{{ summary.open_tasks }}</td>
+                        </tr>
+                        <tr>
+                            <th style="padding: 15px; text-align: left; background-color: #16f9a6; font-weight: bold;">Percentage Completed</th>
+                            <td style="padding: 15px; text-align: left; background-color: #ffffff;">{{ summary.percentage_completed }}%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content%}   

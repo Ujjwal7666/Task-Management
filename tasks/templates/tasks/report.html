@@ -1,0 +1,19 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+<title>Report</title>
+{% endblock title %}
+
+{% block content %}
+<div class="row">
+    <div class=" col col-md-6 ">
+        <a href="{% url 'report-completed' %}" class="btn btn-lg col-md-12 border-success bg-gradient mb-3 " style="background-color: rgb(245, 245, 98); margin-top: 10px; margin-left: 10px;" > Report of Complete Task</a>
+        <a href=" {% url 'report-open' %}" class="btn btn-lg col-md-12 border-success bg-gradient  mb-3" style="background-color: rgb(245, 245, 98); margin-top: 10px; margin-left: 10px;""> Report of Open Task</a>
+        <a href="{% url 'report-progress' %}" class="btn btn-lg col-md-12 border-success bg-gradient mb-3" style="background-color: rgb(245, 245, 98); margin-top: 10px; margin-left: 10px;""> Report of Progress Task</a>
+        <a href="{% url 'report-summary' %}" class="btn btn-lg col-md-12 border-success bg-gradient mb-3" style="background-color: rgb(245, 245, 98); margin-top: 10px; margin-left: 10px;"">Summary Report</a>
+    </div>
+
+
+</div>
+
+{% endblock content %}

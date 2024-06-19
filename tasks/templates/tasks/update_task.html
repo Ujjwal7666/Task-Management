@@ -1,0 +1,70 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+    <title>Update Task</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Update Task</h2>
+    <form action="{% url 'task-update' tasks.id%}" method="post">
+        {% csrf_token %}
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" name="title" value="{{ tasks.title }}">
+            </div>
+            <div class="col-md-6">
+                <label for="priority" class="form-label">Priority</label>
+                <select class="form-select" id="priority" name="priority">
+                    <option>Select priority</option>
+                    <option value="Low" {% if tasks.priority == 'Low' %} selected {% endif %}>Low</option>
+                    <option value="Medium" {% if tasks.priority == 'Medium' %} selected {% endif %}>Medium</option>
+                    <option value="High" {% if tasks.priority == 'High' %} selected {% endif %}>High</option>
+                    <option value="Critical" {% if tasks.priority == 'Critical' %} selected {% endif %}>Critical</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="description" class="form-label">Task Description</label>
+                <textarea class="form-control" id="description" rows="3" name="description">{{ tasks.description }}</textarea>
+            </div>
+            <div class="col-md-4">
+                <label for="status" class="form-label">Status</label>
+                <select class="form-select" id="status" name="status">
+                    <option>Select status</option>
+                    <option value="Open" {% if tasks.status == 'Open' %} selected {% endif %}>Open</option>
+                    <option value="In Progress" {% if tasks.status == 'In Progress' %} selected {% endif %}>In Progress</option>
+                    <option value="Completed" {% if tasks.status == 'Completed' %} selected {% endif %}>Completed</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="createdBy" class="form-label">Created By</label>
+                <input type="text" class="form-control" id="createdBy" name="createdBy" value="{{ tasks.createdBy }}" readonly>
+            </div>
+            <div class="col-md-6">
+                <label for="assignedTo" class="form-label">Assigned To</label>
+                <select class="form-select" id="assignedTo" name="assignedTo">
+                    <option>Select user</option>
+                    {% for user in all_user %}
+                        <option value="{{ user.username }}" {% if tasks.assignedTo == user.username %} selected {% endif %}>{{ user.username }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="startDate" class="form-label">Start Date</label>
+                <input type="date" class="form-control" id="startDate" name="startdate" value="{% if tasks.startdate %}{{ tasks.startdate|date:'Y-m-d' }}{% endif %}">
+            </div>
+            <div class="col-md-6">
+                <label for="endDate" class="form-label">End Date</label>
+                <input type="date" class="form-control" id="endDate" name="enddate" value="{% if tasks.enddate %}{{ tasks.enddate|date:'Y-m-d' }}{% endif %}">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Update Task</button>
+        <button type="reset" class="btn btn-danger">Cancel</button>
+    </form>
+</div>
+{% endblock content %}

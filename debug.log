@@ -1,0 +1,193 @@
+2024-06-19 11:06:39,428 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:06:47,421 WARNING Not Found: / 241 
+2024-06-19 11:06:47,422 WARNING "GET / HTTP/1.1" 404 4373 212 
+2024-06-19 11:06:47,474 WARNING Not Found: /favicon.ico 241 
+2024-06-19 11:06:47,475 WARNING "GET /favicon.ico HTTP/1.1" 404 4424 212 
+2024-06-19 11:06:52,485 INFO "GET /home/ HTTP/1.1" 302 0 212 
+2024-06-19 11:06:52,518 INFO "GET /login/?next=/home/ HTTP/1.1" 200 3033 212 
+2024-06-19 11:06:59,431 INFO "POST /login/ HTTP/1.1" 302 0 212 
+2024-06-19 11:06:59,557 INFO "GET /home/ HTTP/1.1" 200 12984 212 
+2024-06-19 11:07:04,716 INFO "GET /create-task/ HTTP/1.1" 200 10033 212 
+2024-06-19 11:07:04,986 INFO "GET /create-task/ HTTP/1.1" 200 10033 212 
+2024-06-19 11:07:05,620 INFO "GET /task-list/ HTTP/1.1" 200 12052 212 
+2024-06-19 11:07:06,231 INFO "GET /home/ HTTP/1.1" 200 12984 212 
+2024-06-19 11:07:48,872 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:07:49,786 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:07:51,369 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:07:52,338 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:07:53,941 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:07:54,851 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:07:57,523 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:07:58,462 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:07,347 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:08,597 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:13,371 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:14,554 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:19,286 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:20,117 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:22,464 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:23,446 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:27,954 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:29,272 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:34,770 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:35,684 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:08:55,087 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:08:56,480 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:01,251 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:02,245 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:03,867 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:04,736 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:08,110 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:08,912 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:16,624 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:17,656 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:19,025 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:20,005 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:26,776 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:28,150 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:30,826 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:31,875 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:33,456 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:34,381 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:36,069 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:36,930 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:38,511 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:39,738 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:43,432 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:44,290 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:46,651 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:47,505 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:48,802 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:49,774 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:09:56,327 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:09:57,347 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:00,119 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:00,999 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:02,560 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:03,778 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:08,495 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:09,806 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:16,626 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:17,611 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:23,116 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:24,394 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:26,757 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:27,637 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:28,991 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:29,835 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:32,238 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:33,285 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:34,610 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:35,536 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:47,676 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:48,750 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:10:51,347 INFO D:\Intern project\task_management\tasks\views\views_detail_report.py changed, reloading. 266 
+2024-06-19 11:10:52,225 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:03,258 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:04,250 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:09,004 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:10,171 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:14,918 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:15,822 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:23,536 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:24,556 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:35,529 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:36,794 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:42,296 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:43,237 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:11:52,875 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:11:53,716 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:12:02,557 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:12:03,611 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:12:06,271 INFO D:\Intern project\task_management\tasks\views\views_newtask.py changed, reloading. 266 
+2024-06-19 11:12:07,419 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:12:24,835 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:12:25,716 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:12:30,657 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:12:31,628 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:16,219 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:17,165 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:22,891 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:23,770 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:28,233 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:29,374 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:31,985 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:33,192 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:37,874 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:38,755 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:40,068 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:41,128 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:47,812 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:48,778 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:15:53,198 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:15:54,164 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:16:02,019 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:16:03,256 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:16:10,046 INFO D:\Intern project\task_management\tasks\views\views_tasklist.py changed, reloading. 266 
+2024-06-19 11:16:10,897 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:16:27,631 INFO "GET /logout/ HTTP/1.1" 302 0 212 
+2024-06-19 11:16:27,644 INFO "GET /login/ HTTP/1.1" 200 3033 212 
+2024-06-19 11:16:28,966 INFO "GET /signup/ HTTP/1.1" 200 4521 212 
+2024-06-19 11:17:01,958 INFO "POST /signup/ HTTP/1.1" 302 0 212 
+2024-06-19 11:17:01,963 INFO "GET /login/ HTTP/1.1" 200 3033 212 
+2024-06-19 11:17:08,556 INFO "POST /login/ HTTP/1.1" 302 0 212 
+2024-06-19 11:17:08,626 INFO "GET /home/ HTTP/1.1" 200 12984 212 
+2024-06-19 11:17:12,567 INFO "GET /create-task/ HTTP/1.1" 200 10111 212 
+2024-06-19 11:17:50,781 INFO "POST /create-task/ HTTP/1.1" 302 0 212 
+2024-06-19 11:17:50,853 INFO "GET /task-list/ HTTP/1.1" 200 12898 212 
+2024-06-19 11:17:58,082 INFO "GET /task/update/21 HTTP/1.1" 200 10093 212 
+2024-06-19 11:18:05,826 INFO "POST /task/update/21 HTTP/1.1" 302 0 212 
+2024-06-19 11:18:05,887 INFO "GET /task-list/ HTTP/1.1" 200 12905 212 
+2024-06-19 11:18:10,212 INFO "GET /task-list/ HTTP/1.1" 200 12765 212 
+2024-06-19 11:18:13,192 INFO "GET /report HTTP/1.1" 200 7557 212 
+2024-06-19 11:18:15,196 INFO "GET /report/progress HTTP/1.1" 200 10005 212 
+2024-06-19 11:18:17,820 INFO "GET /report HTTP/1.1" 200 7557 212 
+2024-06-19 11:18:18,756 INFO "GET /report/summary HTTP/1.1" 200 7193 212 
+2024-06-19 11:19:27,422 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:19:28,324 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:19:29,939 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:19:31,122 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:19:32,419 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:19:33,473 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:19:35,811 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:19:36,682 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:19:37,996 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:19:38,893 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:19:40,416 INFO D:\Intern project\task_management\tasks\views\views_summary_report.py changed, reloading. 266 
+2024-06-19 11:19:41,386 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:19:43,136 INFO "GET /report/summary HTTP/1.1" 200 7181 212 
+2024-06-19 11:21:16,047 INFO "GET /report/summary HTTP/1.1" 200 7917 212 
+2024-06-19 11:23:04,257 INFO "GET /report/summary HTTP/1.1" 200 7964 212 
+2024-06-19 11:23:38,047 INFO "GET /report/summary HTTP/1.1" 200 7952 212 
+2024-06-19 11:25:02,564 INFO "GET /report/summary HTTP/1.1" 200 8751 212 
+2024-06-19 11:25:46,554 INFO "GET /report/summary HTTP/1.1" 200 8751 212 
+2024-06-19 11:26:21,584 INFO "GET /report/summary HTTP/1.1" 200 8750 212 
+2024-06-19 11:27:02,514 INFO "GET /report/summary HTTP/1.1" 200 8750 212 
+2024-06-19 11:27:18,094 INFO "GET /report/summary HTTP/1.1" 200 8750 212 
+2024-06-19 11:27:56,835 INFO "GET /report/summary HTTP/1.1" 200 8786 212 
+2024-06-19 11:28:16,154 INFO "GET /report/summary HTTP/1.1" 200 8785 212 
+2024-06-19 11:28:34,609 INFO "GET /report/summary HTTP/1.1" 200 8785 212 
+2024-06-19 11:30:49,941 INFO "GET /report/summary HTTP/1.1" 200 8810 212 
+2024-06-19 11:30:53,785 INFO "GET /report/summary HTTP/1.1" 200 8810 212 
+2024-06-19 11:31:21,696 INFO "GET /report HTTP/1.1" 200 7557 212 
+2024-06-19 11:31:24,129 INFO "GET /report/complete HTTP/1.1" 200 8614 212 
+2024-06-19 11:31:25,306 INFO "GET /report HTTP/1.1" 200 7557 212 
+2024-06-19 11:31:25,957 INFO "GET /report/open HTTP/1.1" 200 10715 212 
+2024-06-19 11:31:37,346 INFO "GET /logout/ HTTP/1.1" 302 0 212 
+2024-06-19 11:31:37,354 INFO "GET /login/ HTTP/1.1" 200 3033 212 
+2024-06-19 11:38:29,308 INFO Watching for file changes with StatReloader 668 
+2024-06-19 11:38:30,633 WARNING Not Found: / 241 
+2024-06-19 11:38:30,633 WARNING "GET / HTTP/1.1" 404 4373 212 
+2024-06-19 11:38:30,764 WARNING Not Found: /favicon.ico 241 
+2024-06-19 11:38:30,765 WARNING "GET /favicon.ico HTTP/1.1" 404 4424 212 
+2024-06-19 11:38:33,457 INFO "GET /home HTTP/1.1" 301 0 212 
+2024-06-19 11:38:33,562 INFO "GET /home/ HTTP/1.1" 200 12984 212 
+2024-06-19 11:38:40,236 INFO "GET /create-task/ HTTP/1.1" 200 10110 212 
+2024-06-19 11:38:41,699 INFO "GET /home/ HTTP/1.1" 200 12984 212 
+2024-06-19 11:38:42,277 INFO "GET /create-task/ HTTP/1.1" 200 10110 212 
+2024-06-19 11:38:45,098 INFO "GET /report HTTP/1.1" 200 7557 212 
+2024-06-19 11:38:45,852 INFO "GET /create-task/ HTTP/1.1" 200 10110 212 
+2024-06-19 11:38:46,364 INFO "GET /home/ HTTP/1.1" 200 12984 212 
+2024-06-19 11:38:49,652 INFO "GET /logout/ HTTP/1.1" 302 0 212 
+2024-06-19 11:38:49,665 INFO "GET /login HTTP/1.1" 301 0 212 
+2024-06-19 11:38:49,670 INFO "GET /login/ HTTP/1.1" 200 3033 212 
