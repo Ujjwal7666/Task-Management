@@ -2,6 +2,7 @@ import logging
 
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
 
 from tasks.models import CreateTask
 
@@ -14,6 +15,8 @@ def home(request):
         all_task = CreateTask.objects.filter(is_delete = False)
         tasks = CreateTask.objects.filter(is_delete= False)
         five_task = tasks[:5]
+        current_user = request.user
+        # user = User.objects.get()
 
         total_tasks = all_task.count()
         task_complete = all_task.filter(status = "Completed").count()
@@ -21,7 +24,7 @@ def home(request):
         task_progress = all_task.filter(status = "In Progress").count()
 
         contex ={  'total_tasks':total_tasks, "task_open": task_open,  "task_progress":task_progress,
-                 'task_complete': task_complete, 'tasks':five_task}
+                 'task_complete': task_complete, 'tasks':five_task, 'current_user': current_user}
         return render(request, 'tasks/home.html', contex)
     
     except Exception as exe:

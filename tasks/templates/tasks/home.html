@@ -6,8 +6,11 @@
 <title>Home</title>
 {% endblock title %}
 
+
+
 {% block content %}
 {% include 'tasks/stauts.html' %}
+
 <div class="row">
     <div class=" col col-md-3 ">
         <a href="{% url 'create-task' %}" class="btn btn-lg col-md-12 border-success bg-gradient mb-3 " > Create Task</a>

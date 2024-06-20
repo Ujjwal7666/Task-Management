@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(17, 97, 245);">
         <div class="container-fluid">
-          <a class="navbar-brand" >Ujjwal</a>
+          <a class="navbar-brand" >Ujjwal Company</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,7 +35,12 @@
             </div>
           </div>
         </div>
-        <a href="{%  url 'logout' %}" class="btn-sm btn-warning" style="margin: 10px;"> Logout</a>
+        <div class="ms-auto d-flex align-items-center">
+          {% if user.is_authenticated %}
+              <span class="navbar-text text-white me-3">Welcome, {{ user.username }}</span>
+              <a href="{% url 'logout' %}" class="btn btn-sm btn-warning">Logout</a>
+          {% endif %}
+        </div>
       </nav>
 
 {% block content %}
